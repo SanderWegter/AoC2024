@@ -1,0 +1,32 @@
+[project]
+name = "AoC2024"
+version = "0.1"
+description = "Advent of Code 2024 attempt"
+requires-python = ">=3.13"
+
+[tool.ruff]
+select = ["E", "F", "W", "B", "I", "UP", "C4", "TID"]
+ignore = ["E402"]
+exclude = [
+  ".bzr",
+  ".direnv",
+  ".eggs",
+  ".git",
+  ".hg",
+  ".mypy_cache",
+  ".nox",
+  ".pants.d",
+  ".ruff_cache",
+  ".svn",
+  ".tox",
+  ".venv",
+  "__pypackages__",
+  "_build",
+  "buck-out",
+  "build",
+  "dist",
+  "node_modules",
+  "venv",
+]
+line-length = 125
+target-version = "py313"
