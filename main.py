@@ -1,7 +1,9 @@
 from day1 import Day1
+from day2 import Day2
 
 days = [
     Day1(),  # 1722302 / 20373490
+    Day2(),  # 564 / 604
 ]
 
 print(f"╔{'═' * 116}╗")
