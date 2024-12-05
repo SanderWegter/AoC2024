@@ -6,4 +6,4 @@ def read_file(input_file: str = "") -> list[str]:
 def read_file_grouped(input_file: str = "") -> list[list[str]]:
     with open(input_file) as f:
         file_data = f.read().split("\n\n")
-        return [line.split("\n") for line in file_data]
+        return [list(filter(None, line.split("\n"))) for line in file_data if line]
