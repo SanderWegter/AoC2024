@@ -3,6 +3,7 @@ from day2 import Day2
 from day3 import Day3
 from day4 import Day4
 from day5 import Day5
+from day6 import Day6
 
 days = [
     Day1(),  # 1722302 / 20373490
@@ -10,6 +11,7 @@ days = [
     Day3(),  # 174336360 / 88802350
     Day4(),  # 2578 / 1972
     Day5(),  # 5268 / 5799
+    Day6(),  # 4665 / 1688
 ]
 
 print(f"╔{'═' * 116}╗")
